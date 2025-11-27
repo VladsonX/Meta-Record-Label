@@ -18,5 +18,13 @@ This project focuses on practicing clean layout techniques, semantic HTML, and i
 ## Project Structure
 *(to be updated)*
 
+## Preview
+### Main page with header
+![Main Page with header](assets/screenshots/Meta%20Record%20Label%20-%20Learn%20More%20Section.png)
+### Main page with header
+![Team Section](assets/screenshots/Meta%20Record%20Label%20-%20Team%20Section.png)
+### Main page with header
+![FAQ Section](assets/screenshots/Meta%20Record%20Label%20-%20FAQ%20Section.png)
+
 ## License
 MIT
