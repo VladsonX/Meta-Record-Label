@@ -1,0 +1,613 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s all ease;
+}
+body {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  background-color: black;
+}
+
+section {
+  padding-bottom: 6rem;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+}
+
+.header__nav {
+  width: 1160px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 123px;
+  height: auto;
+}
+
+.header__links-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header__anchor-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 350px;
+  gap: 40px;
+}
+
+.header__anchor {
+  font-size: 16px;
+}
+.header__anchor:hover {
+  color: #8dfd1b;
+  text-decoration: underline;
+}
+
+.social-rectangle {
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-logo {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.social-rectangle_twitter:hover {
+  transition: 0.1s all ease;
+  background-color: #1da1f2;
+  border: 1px solid black;
+}
+.social-rectangle_linkedin:hover {
+  transition: 0.1s all ease;
+  background-color: #0a66c2;
+  border: 1px solid black;
+}
+.social-rectangle_discord:hover {
+  transition: 0.1s all ease;
+  background-color: #5865f2;
+  border: 1px solid black;
+}
+.social-rectangle_youtube:hover {
+  transition: 0.1s all ease;
+  background-color: #ff0000;
+  border: 1px solid black;
+}
+.social-rectangle_telegram:hover {
+  transition: 0.1s all ease;
+  background-color: #24a1de;
+  border: 1px solid black;
+}
+
+.social-links-container {
+  width: 180px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.learn-more {
+  width: 100%;
+  height: 100vh;
+}
+
+.section__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__info {
+  width: 40%;
+  display: flex;
+  gap: 75px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.title {
+  text-transform: uppercase;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+}
+.text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.text_highlighted {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  color: #8dfd1b;
+  font-size: 21px;
+  position: relative;
+  border-left: 2px solid #8dfd1b;
+  padding-left: 20px;
+}
+
+.learn-more__image-container {
+  width: 60%;
+}
+.learn-more__image {
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  width: 205px;
+  height: 60px;
+  background-color: #8dfd1b;
+  color: black;
+  font-size: 16px;
+  border: none;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid #8dfd1b;
+  cursor: pointer;
+}
+
+.nft {
+  width: 100%;
+  padding: 0 0 4rem;
+}
+.nft-wrapper {
+  display: flex;
+}
+
+.nft__left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.nft__right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.title_medium {
+  font-size: 38px;
+}
+.grey {
+  color: #a8a8a8;
+}
+
+.nft__image {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+}
+.title_center {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.artists__gallery {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 309px;
+}
+.artists__artist {
+  width: 245px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.artists__pic {
+  width: 100%;
+  height: auto;
+}
+.chapters {
+  display: flex;
+  min-height: 30rem;
+}
+
+
+.chapters-list {
+  flex: 1;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.chapters-list__item {
+  cursor: pointer;
+  padding: 2rem;
+  min-width: 17rem;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.chapters-list__item:hover {
+  background-color: #222222;
+  color: #8dfd1b;
+}
+
+.chapters__info {
+  flex: 4;
+  padding: 4rem;
+  background-color: #222222;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  display: none;
+}
+.chapters__img {
+  max-width: 15rem;
+  flex: 1;
+  height: auto;
+}
+.chapter__descr {
+  flex: 4;
+}
+
+.active {
+  color: #8dfd1b;
+  background-color: #222222;
+}
+
+.chapters-active {
+  display: flex;
+  flex: 4;
+}
+
+.roadmap__img {
+  width: 100%;
+  height: auto;
+}
+
+.roadmap__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.phase-block {
+  width: 33rem;
+  min-height: 16rem;
+  background-color: #222222;
+  border: 1px solid #8dfd1b;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.phase-block::before {
+  z-index: -1;
+  content: url("img/roadmap/circle.png");
+  position: absolute;
+  top: -20rem;
+}
+.phase-block_circle-left::before {
+  left: -25rem;
+}
+.phase-block_circle-right::before {
+  right: -25rem;
+}
+.phase-block__header {
+  padding: 0.75rem;
+  display: flex;
+  width: 100%;
+  min-height: 4rem;
+  gap: 0.75rem;
+  border-bottom: 1px solid #8dfd1b;
+}
+
+.phase-block__number {
+  background-color: #8dfd1b;
+  color: black;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+}
+
+.phase-block__number_inactive {
+  background-color: #222222;
+  border: 1px solid #8dfd1b;
+  color: #8dfd1b;
+}
+
+.phase-block__header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 0.75rem;
+}
+
+.green {
+  font-family: "DM Mono", monospace;
+  text-transform: uppercase;
+  color: #8dfd1b;
+  font-size: 0.75rem;
+}
+
+.phase-block__title {
+  font-family: "DM Mono", monospace;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.phase-block__main {
+  padding: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.phase-block__main-text {
+  flex: 4;
+  height: auto;
+  font-size: 0.75rem;
+}
+
+.phase-block__list {
+  list-style-type: none;
+}
+
+.phase-block__img {
+  flex: 1;
+  max-width: 8.125rem;
+  max-height: 8.125rem;
+}
+
+.green-line {
+  width: 1px;
+  height: 2.25rem;
+  background-color: #8dfd1b;
+}
+.roadmap {
+  position: relative;
+}
+.roadmap__circle {
+  position: absolute;
+}
+
+.partners__text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.partners__logos {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 2rem;
+  place-items: center;
+}
+.partners__logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.partners__logo {
+  max-width: 10rem;
+  max-height: 10rem;
+  width: auto;
+  height: auto;
+}
+
+.faq__wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.faq__img {
+  width: 25rem;
+}
+
+.faq__left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+}
+
+.faq__right {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  gap: 2rem;
+  flex: 1;
+}
+
+.faq__question-wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.faq__question-wrapper:hover::before {
+  background-color: #8dfd1b;
+}
+
+.faq__question-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background-color: white;
+  top: 0;
+  right: 0;
+}
+
+.faq__question-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(34, 34, 34, 0.72) 0%,
+    rgba(34, 34, 34, 1) 100%
+  );
+  height: 60%;
+  bottom: 0;
+  left: 0;
+}
+.faq__question-wrapper_active::before {
+  content: "";
+  background-color: #8dfd1b;
+}
+
+.faq__question-wrapper_active::after {
+  content: "";
+  display: none;
+}
+.faq__question_active {
+  color: #8dfd1b;
+}
+.faq__questions {
+  font-family: "DM Mono", monospace;
+  font-size: 1rem;
+}
+.faq__answer-wrapper {
+  display: grid;
+  grid-template-rows: 0.3fr;
+  grid-auto-rows: 0fr;
+  transition: 1s all ease;
+}
+.faq__answer-wrapper_active {
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+}
+.faq__answer {
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  min-height: 0;
+}
+
+.team__wrapper {
+  display: grid;
+  grid-template: 1fr / repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.team__member {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1rem;
+}
+
+.team__member-name {
+  font-family: "DM Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.team__member-links-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.team__member-link-logo {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.team__member-link-square {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.team__member-img {
+  width: 20rem;
+  height: auto;
+}
+
+.team__member-descr {
+  font-size: 0.75rem;
+}
+
+.join__green {
+  font-size: 51px;
+}
+
+.footer {
+  padding: 3rem 0 1rem;
+  background-color: #42006a;
+}
+.footer__wrapper {
+  min-height: 7rem;
+  display: flex;
+}
+
+.footer__text {
+  font-size: 0.75rem;
+}
+
+.footer__left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__center {
+  flex: 2;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  justify-content: start;
+  align-items: start;
+}
+.footer__right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+  color: #8dfd1b;
+}
