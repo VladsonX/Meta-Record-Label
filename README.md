@@ -4,9 +4,9 @@ A modern, responsive one-page website built from a Figma mockup for a fictional 
 This project focuses on practicing clean layout techniques, semantic HTML, and interactive UI using vanilla JavaScript.
 
 ## Features
-- Interactive **FAQ** and **Story** sections (tabs, + collapsible items)
+- Interactive **FAQ** and **Story** sections (tabs, collapsible items, burger menu)
 - Clean, smooth, modern UI
-- Fully responsive layout — *in progress*
+- Fully responsive layout
 - Flexible structure using **Flexbox** and **CSS Grid**
 - Semantic and accessible HTML
 
