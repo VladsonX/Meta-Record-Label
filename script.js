@@ -19,3 +19,12 @@ faqQuestions.forEach(e => {
         e.querySelector(".faq__question").classList.toggle("faq__question_active");
     })
 })
+
+let burgerMenu = document.querySelector("#burger");
+let header = document.querySelector("#header");
+let headerNav = document.querySelector("#headerNav");
+burgerMenu.addEventListener('click', () => {
+    header.classList.toggle('header_active');
+    headerNav.classList.toggle('header__nav_active');
+    burgerMenu.classList.toggle('burger_active');
+})
