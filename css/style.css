@@ -3,7 +3,6 @@
   margin: 0;
   text-decoration: none;
   color: white;
-  transition: 0.3s all ease;
   padding: 0;
 }
 
@@ -15,6 +14,10 @@ body {
   font-family: "DM Mono", monospace;
   font-weight: 500;
   background-color: black;
+}
+
+a {
+  transition: .3s all ease-in-out;
 }
 
 section {
@@ -313,6 +316,7 @@ section {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  transition: .3s all ease-in-out;
 }
 .chapters-list__item:hover {
   background-color: var(--gray-background-color);
