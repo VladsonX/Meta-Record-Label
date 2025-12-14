@@ -15,8 +15,8 @@ This project focuses on practicing clean layout techniques, semantic HTML, and i
 - **CSS3** — Flexbox, Grid, BEM naming  
 - **JavaScript (ES6+)** — DOM manipulation, class toggling, simple interactivity  
 
-## Project Structure
-*(to be updated)*
+## Live Demo
+[Meta Record Label](https://vladsonx.github.io/Meta-Record-Label/)
 
 ## Preview
 ### Main page with header
